@@ -43,6 +43,6 @@ Frontend: HTML5, CSS3, Bootstrap 5, JavaScript
 Icons: Bootstrap Icons
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ebe0a0c-977d-4247-bc0a-f80860841b5d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31dbe57f-4f75-4328-9beb-c903411977b0" />
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2245bbc6-63bf-45af-900b-46bf7ca86d73" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80d119c1-cbc1-419d-b9b1-e1f271fdf07c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d1b5482-dd17-4de0-8e95-dccf7e77dfc3" />
