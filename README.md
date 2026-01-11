@@ -40,5 +40,9 @@ Note: This platform currently functions as a UI prototype. Backend integration f
 # Technologies Used
 
 Frontend: HTML5, CSS3, Bootstrap 5, JavaScript
-
 Icons: Bootstrap Icons
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ebe0a0c-977d-4247-bc0a-f80860841b5d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31dbe57f-4f75-4328-9beb-c903411977b0" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80d119c1-cbc1-419d-b9b1-e1f271fdf07c" />
