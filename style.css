@@ -1,0 +1,169 @@
+
+
+
+
+
+/* ================= GLOBAL ================= */
+body{
+  background:#f7f7f7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================= SIDEBAR ================= */
+#sidebar{
+  background: linear-gradient(180deg,#0f172a,#020617);
+  color:white;
+}
+
+#sidebar h3{
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+#sidebar .nav-link{
+  color:#cbd5f5;
+  padding:12px 16px;
+  border-radius:12px;
+  margin-bottom:6px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  transition:0.3s;
+}
+
+#sidebar .nav-link:hover{
+  background:#dc2626;
+  color:white;
+}
+
+#sidebar .nav-link.active{
+  background:#b91c1c;
+  color:white;
+}
+.menu-link i{
+  font-size:18px;
+  min-width:22px;
+  text-align:center;
+}
+
+/* ================= MAIN HEADING ================= */
+main h2{
+  font-weight:800;
+}
+
+main p{
+  font-size:15px;
+}
+
+/* ================= DASHBOARD CARDS ================= */
+.card{
+  border-radius:18px;
+}
+
+.card h5{
+  font-weight:700;
+}
+
+.card.shadow{
+  transition:0.3s;
+}
+
+.card.shadow:hover{
+  transform:translateY(-4px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* ================= DONATION CARDS ================= */
+#donation-causes .card{
+  overflow:hidden;
+}
+
+#donation-causes img{
+  height:220px;
+  object-fit:cover;
+}
+
+.progress{
+  height:7px;
+  border-radius:10px;
+}
+
+.progress-bar{
+  border-radius:10px;
+}
+
+.btn-danger{
+  border-radius:12px;
+  padding:10px 20px;
+  font-weight:600;
+}
+
+/* ================= TABLES ================= */
+table{
+  background:white;
+}
+
+.table thead{
+  font-weight:600;
+}
+
+.table-hover tbody tr:hover{
+  background:#fff1f2;
+}
+
+/* ================= REPORTS ================= */
+#reports .card{
+  border-left:5px solid #dc2626;
+}
+
+/* ================= ABOUT / CONTACT ================= */
+#about .card{
+  border-left:5px solid #dc2626;
+}
+
+/* ================= FOOTER ================= */
+footer{
+  background: linear-gradient(180deg,#020617,#020617);
+}
+
+footer h5, footer h6{
+  color:#f87171;
+}
+
+.footer-link{
+  color:#cbd5f5;
+  text-decoration:none;
+  display:block;
+  margin-bottom:6px;
+}
+
+.footer-link:hover{
+  color:white;
+}
+
+/* ================= MODAL ================= */
+.modal-content{
+  border-radius:18px;
+}
+
+/* ================= BADGES ================= */
+.badge{
+  padding:6px 10px;
+  border-radius:10px;
+}
+
+/* ================= MOBILE SIDEBAR ================= */
+@media(max-width:768px){
+  #sidebar{
+    position:fixed;
+    left:-260px;
+    top:0;
+    height:100%;
+    z-index:999;
+    transition:0.3s;
+  }
+
+  #sidebar.active{
+    left:0;
+  }
+}
